@@ -27,7 +27,8 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
+          <p>I'm currently a student at Camosun College, enrolled in the Computer Systems Technology program. I'm 
+          currently looking for summer co-op work, from June to the end of September.</p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -38,66 +39,6 @@
         {% endif %}
 
       </header>
-
-      {% if site.resume_section_experience %}
-      <!-- begin Experience -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Experience</h2>
-        </header>
-
-        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details" itemprop="description">Safety Inspector &bull; Nov, 1980 &mdash; Present</h4>
-          <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p>
-          <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
-          </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- another resume item -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Sir Putt-A-Lot's Merrie Olde Fun Centre</h3>
-          <h4 class="resume-item-details" itemprop="description">Windmill Crank Operator &bull; Jun, 1978 &mdash; Sept, 1979</h4>
-          <p class="resume-item-copy">If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Simpson Lazer Tag</h3>
-          <h4 class="resume-item-details" itemprop="description">Front Desk Attendant &bull; Jun, 1975 &mdash; May, 1978</h4>
-          <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
-
-        </div><!-- end of resume-item -->
-
-      </section>
-      <!-- end Experience -->
-      {% endif %}
-
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Education</h2>
-        </header>
-
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">Springfield College</h3>
-          <h4 class="resume-item-details" itemprop="description">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
-          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
-        </div>
-
-      </section>
-      <!-- end Education -->
-      {% endif %}
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
@@ -118,7 +59,6 @@
           <h4 class="resume-item-details">Co-Founder & Organizer &bull; 2007 &mdash; Present</h4>
           <p class="resume-item-copy">DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.</p>
         </div>
-
       </section>
       <!-- end Projects -->
       {% endif %}
@@ -148,6 +88,79 @@
 
       </section>
       <!-- end Skills -->
+      {% endif %}
+
+      {% if site.resume_section_education %}
+      <!-- begin Education -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Education</h2>
+        </header>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Camosun College</h3>
+          <h4 class="resume-item-details" itemprop="description">Diploma, Computer Systems Technology &bull; 2015 &mdash; 2017</h4>
+        </div>
+
+      </section>
+      <!-- end Education -->
+      {% endif %}
+
+      {% if site.resume_section_experience %}
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Experience</h2>
+        </header>
+
+        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Chatters Salon</h3>
+          <h4 class="resume-item-details" itemprop="description">Receptionist/Sales Associate &bull; June, 2014 &mdash; May, 2016</h4>
+          <p class="resume-item-copy">My most recent job. It was a ton of fun working here, the work was stimulating and all of my coworkers were wonderful people. It was very hard to leave this job, and I had even considering trying to work 6 days a week when I got a summer co-op. Unfortunately, I knew burnout would be likely, and I had to close this chapter in my life.</p>
+          <p class="resume-item-copy">Job duties included:</p>
+          <ul class="resume-item-list">
+            <li>Manging the schedules of 25 stylists</li>
+            <li>Customer service</li>
+            <li>Answering phones</li>
+            <li>Consultations for hair and skin care products</li>
+            <li>Sale of products and services</li>
+            <li>General organization and cleaning</li>
+          </ul>
+        </div><!-- end of resume-item -->
+
+        <!-- another resume item -->
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Pathway Project, WorkLink</h3>
+          <h4 class="resume-item-details" itemprop="description">Paid Participant &bull; March, 2014 &mdash; June, 2014</h4>
+          <p class="resume-item-copy">I was a part of this program for a little over 3 months. While I was involved, we learned a lot of great skills for employment:</p>
+          <ul class="resume-item-list">
+            <li>Team building</li>
+            <li>Conflict resolution</li>
+            <li>WorldHost customer service certification</li>
+            <li>First aid certification</li>
+            <li>How to write/target resumes and cover letters</li>
+          </ul>
+        </div><!-- end of resume-item -->
+
+        <!-- by now you're getting the picture... -->
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">General Repair</h3>
+          <h4 class="resume-item-details" itemprop="description">Receptionist/Assistant &bull; 2012 &mdash; 2014</h4>
+          <p class="resume-item-copy">This was my father's business and I was grateful for the change from cashiering. I didn't have much responsibility, but I did have to dictate his emails, answer some phone calls, and manage his spending and taxes.</p>
+        </div><!-- end of resume-item -->
+
+        <!-- by now you're getting the picture... -->
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Various</h3>
+          <h4 class="resume-item-details" itemprop="description">Cashier &bull; 2005 &mdash; 2010</h4>
+          <p class="resume-item-copy">Throughout my teens (13-18) I worked at various fast food and big-name retailrs as a cashier. These were generally very boring jobs, but I did learn early on the importance of responsibility and customer service.</p>
+        </div><!-- end of resume-item -->
+
+      </section>
+      <!-- end Experience -->
       {% endif %}
 
       {% if site.resume_section_recognition %}
@@ -224,8 +237,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p></p>
       </footer>
 
     </div>
